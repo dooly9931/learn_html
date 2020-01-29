@@ -148,4 +148,19 @@ attribute pattern : input which is in correct form is required using regular exp
 
 Chapter 6.
 
-not yet
+<header> </header> : heading
+<nav> </nav> : navigation
+<main> </main> : dominant conent
+<footer> </footer> : contact, copyright, site map, reference
+<section> </section> : section
+<article> </article> : article
+<aside> </aside> : aside information(text)
+<fig> : aside information(img)
+  <img src="BTS.jpeg">
+  <figcaptioin>This picture shows a picture of BTS.</figcaption>
+</fig>
+<audio autoplay controls> : audio
+  <source src="idol.mp3" type="audio/mp3">
+</audio>
+<video src="BTS.mp4" controls>Video not supported</video> : video
+<embed src="BTS.jpeg"> : anything you want
